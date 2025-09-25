@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cout << "Enter a number: ";
+    cin >> x;
+    if (x >= 0) {
+        cout << "Positive";
+        cout << endl;
+    }
+    else
+        cout << "Negative";
+    return 0;
+}
